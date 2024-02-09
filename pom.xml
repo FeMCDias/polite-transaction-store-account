@@ -8,7 +8,7 @@
         <version>3.2.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>insper.store</groupId>
+    <groupId>polite-transaction.store</groupId>
     <artifactId>account</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>account</name>
