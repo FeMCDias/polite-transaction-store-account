@@ -13,6 +13,11 @@ public interface AccountController {
 		@RequestBody(required = true) AccountIn in
 	);
 
+	@PostMapping("/accounts/login")
+	public ResponseEntity<AccountOut> login(
+		@RequestBody(required = true) AccountIn in
+	);
+
 	@PutMapping("/accounts/{id}")
 	public ResponseEntity<AccountOut> update(
 		@PathVariable(required = true) String id,
