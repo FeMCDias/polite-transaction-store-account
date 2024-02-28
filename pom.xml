@@ -22,11 +22,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud.openfeign</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>2.2.10</version>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
