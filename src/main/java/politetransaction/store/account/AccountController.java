@@ -17,7 +17,7 @@ public interface AccountController {
 
 	@PostMapping("/accounts/login")
 	public ResponseEntity<AccountOut> login(
-		@RequestBody(required = true) AccountIn in
+		@RequestBody(required = true) LoginIn in
 	);
 
 	@PutMapping("/accounts/{id}")
